@@ -1,0 +1,3 @@
+
+double pow(double,int);
+
