@@ -1,0 +1,11 @@
+/****************************************************************/
+/*   Author      : Gowtham.S                                    */
+/*   Date        : 08-04-2022                                   */
+/*   Filename    : copy.txt                                     */
+/*   Description : copying file to another file                 */
+/*                                                              */
+/****************************************************************/
+
+
+
+Writing a program to copy one file to another file
