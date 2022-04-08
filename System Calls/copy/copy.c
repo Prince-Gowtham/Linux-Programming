@@ -16,7 +16,7 @@
 
 int main(int argc,char *argv[])
 {
-    int fd,fd1,fd2,fd3,fd4;
+    int fd,fd1,fd2,fd3;
     char a[4665313];
 
     /*opening file*/
