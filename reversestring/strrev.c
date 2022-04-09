@@ -2,7 +2,7 @@
 /*   Author      : Gowtham.S						  */
 /*   Date        : 09-04-2022						  */
 /*   Filename    : strrev.c						  */
-/*   Description : reading a stringa and store in entire string in reverse*/
+/*   Description : reading a strings and store in entire string in reverse*/
 /*									  */
 /**************************************************************************/
 
