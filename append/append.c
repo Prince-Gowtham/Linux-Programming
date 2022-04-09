@@ -14,7 +14,6 @@
 
 /* function definitions */
 
-
 int main(int argc,char* argv[])
 {
     //Initilation
