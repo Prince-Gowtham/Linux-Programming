@@ -1,6 +1,6 @@
 /****************************************************************/
 /*   Author      : Gowtham.S					*/
-/*   Date        : 08-04-2022					*/
+/*   Date        : 09-04-2022					*/
 /*   Filename    : strrev.h					*/
 /*   Description : reading a string and store in reverse	*/
 /*								*/
