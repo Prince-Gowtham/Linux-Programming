@@ -18,10 +18,10 @@ int main(int argc,char *argv[])
 {
         //Initilation
 
-    char buf[buf_size],c;
-    char buf1[buf_size],*tok;
+    char buf[buf_size],buf1[buf_size],*a,c;
     ssize_t numRead,inputFlag;
     int inputFd,inputFd1=1,i,j=1,k,count=0;
+	
     if (argc < 3) // To check the syntax
     {
 	printf( "The Correct Syntax is : cut \"filename\" delimeter\n");
@@ -42,11 +42,11 @@ int main(int argc,char *argv[])
 
     numRead=read(inputFd,buf,buf_size);
 
-    tok=strtok(buf,argv[2]);
-    while(tok !=NULL)
+    a=strtok(buf,argv[2]);
+    while(a !=NULL)
     {
-	printf(" %s\n", tok);
-	tok = strtok(NULL,argv[2]);
+	printf(" %s\n", a);
+	a = strtok(NULL,argv[2]);
     }
     //j=(cut -f ":" -d : argv[1]);
     close(inputFd);
