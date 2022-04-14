@@ -1,9 +1,9 @@
 /************************************************************************************************/
-/*   Author      : Gowtham.S									*/
-/*   Date        : 13-04-2022									*/
-/*   Filename    : cut.h									*/
-/*   Description : Displaying the what are the contents presented in the file		      	*/
-/*												*/
+/*   Author      : Gowtham.S							                                                    	*/
+/*   Date        : 14-04-2022									                                                  */
+/*   Filename    : cut.h									                                                      */
+/*   Description : we can remove the part of the file using this program('@..' '1-9' 'a-z''A-Z')*/
+/*												                                                                       */
 /************************************************************************************************/
 
 
