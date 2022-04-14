@@ -2,7 +2,7 @@
 /*   Author      : Gowtham.S									*/
 /*   Date        : 14-04-2022									*/
 /*   Filename    : cut.c									*/
-/*   Description : Displaying the what are the contents presented in the file			*/
+/*   Description : we can remove the part of the file using this program('@..' '1-9' 'a-z''A-Z') */
 /*												*/
 /************************************************************************************************/
 
