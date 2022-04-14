@@ -43,10 +43,10 @@ int main(int argc,char *argv[])
     numRead=read(inputFd,buf,buf_size);
 
     a=strtok(buf,argv[2]);
-    while(a !=NULL)
+    while(a !='\0')
     {
 	printf(" %s\n", a);
-	a = strtok(NULL,argv[2]);
+	a = strtok('\0',argv[2]);
     }
     //j=(cut -f ":" -d : argv[1]);
     close(inputFd);
