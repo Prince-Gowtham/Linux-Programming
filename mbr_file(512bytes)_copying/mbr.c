@@ -19,7 +19,7 @@
 int main(int argc, char *argv[])
 {
     char buf[buf_size];
-    int inputFd,count=0;
+    int inputFd;
     FILE *fd,*fd1,*fd2;
 
     /* here we using popen (stream to or from a process).The  popen()  function opens a process by creating a pipe, and invoking the shell.Since a pipe is by definition unidirectional, the type argument may specify only reading or writing, not both; the resulting stream is corres pondingly read-only or write-only.*/
@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
     
     inputFd=open("./gow.txt",O_RDONLY);// we are opening the file readonly mode.
 
-    while((count=read(inputFd,buf,1))>0) // we are reading the file when the conditions shold be false.
+    while((read(inputFd,buf,1))>0) // we are reading the file when the conditions shold be false.
 	write(1,buf,1);                  // we are using printing the buf.
     close(inputFd);//closing open
 }
